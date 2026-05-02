@@ -1,0 +1,58 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+     <h1 id="title">Programming Survey</h1>
+     <p id="description">A survey about study habits and school life—very useful for applications.</p>
+  <body>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label id="email-label">Email</label>
+      <input type="email" id="email" name="name" placeholder="Enter your email" required>
+
+      <label id="number-label">Age (optional)</label>
+      <input id="number" type="number" min="10" max="100" placeholder="Age">
+
+ <label>How long have you been learning programming?</label>
+ <select id="dropdown">
+    <option>Select one</option>
+    <option>Less than 3 months</option>
+    <option>3–6 months</option>
+    <option>1 year</option>
+  </select>
+
+  <label>What is your current level?</label>
+  <select>
+    <option>Select one</option>
+    <option>Beginner</option>
+    <option>Intermediate</option>
+    <option>Advanced</option>
+    </select>
+  <label>Would you recommend learning programming?</label>
+   <input type="radio" id="yes-option" name="recommend" value="yes">Yes</input>
+   <input type="radio" id="maybe-option" name="recommend" value="may-be">May be</input>
+   <input type="radio" id="no-option" name="recommend" value="no">No</input>
+   <label>What are your main goals in programming?</label>
+   <input type="checkbox" value="getajob">Get a job</input>
+      <input type="checkbox" value="buildpersonalprojects">Build personal projects</input>
+        <input type="checkbox" value="freelancing">Freelancing</input>
+        <input type="checkbox" value="learnforfun">Learn for fun</input>
+        <input type="checkbox" value="startabusiness">Start a business</input>
+
+      <label>Any comments?</label>
+      <textarea rows="4" placeholder="Write here..."></textarea>
+
+      <button id="submit" type="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
